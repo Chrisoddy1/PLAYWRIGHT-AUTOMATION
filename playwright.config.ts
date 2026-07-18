@@ -14,7 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
-  testMatch: '/.**/*.spec.ts',
+  testMatch: '**/*.spec.ts',
   /*   Define a pattern to match test files  */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */

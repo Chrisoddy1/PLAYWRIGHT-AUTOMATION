@@ -1,7 +1,9 @@
 import { test, expect } from '@playwright/test';
 
-test('My First Test', () => { 
 
+test('My First Test', async () => { 
+
+    
 console.log('My First Test')
 
 

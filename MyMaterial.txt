@@ -8,3 +8,12 @@ https://www.youtube.com/watch?v=NATg-5C-U7k&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP
  the line of code needs to fetch the url which requires time to do
 
  The <page> is simply the browser tab that Playwright is controlling.
+
+ Xpath is a technique to navigate through a page HTML stucture
+
+ //htmltag[@attribute ='attribute value']
+ //*[@attribute ='attribute value']
+
+
+quote
+what you are not changing you are choosing
