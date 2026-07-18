@@ -1,3 +1,10 @@
 Playwright Automation Youtube video
 
 https://www.youtube.com/watch?v=NATg-5C-U7k&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
+
+ await page.getByRole('link', { name: 'Scotland' }).click();
+ line of code is written in promise so with the help of the await keyword we are
+ telling our code to wait until the promise is fulfilled 
+ the line of code needs to fetch the url which requires time to do
+
+ The <page> is simply the browser tab that Playwright is controlling.
