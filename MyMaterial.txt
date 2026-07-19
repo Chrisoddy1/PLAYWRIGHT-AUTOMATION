@@ -11,8 +11,26 @@ https://www.youtube.com/watch?v=NATg-5C-U7k&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP
 
  Xpath is a technique to navigate through a page HTML stucture
 
+
+Different Type of locator
+Xpath
  //htmltag[@attribute ='attribute value']
  //*[@attribute ='attribute value']
+
+css selector
+html.classvalue- .classvalue
+htlm#idvalue - #idvalue
+htmltag[attributeName = attributeValue]
+[attributeName = attributeValue]
+
+Text
+text ='textvalue' - case sensitive
+text = textvalue - non case sensitive
+
+
+id, data-testid, data-test-id, data-test
+
+
 
 
 quote
