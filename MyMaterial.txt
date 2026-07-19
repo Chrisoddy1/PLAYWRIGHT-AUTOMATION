@@ -35,3 +35,8 @@ id, data-testid, data-test-id, data-test
 
 quote
 what you are not changing you are choosing
+
+
+VSCODE EXTENSION
+vscode-icon 
+Material-icon

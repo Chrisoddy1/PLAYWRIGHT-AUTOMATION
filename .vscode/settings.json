@@ -1,3 +1,68 @@
 {
-    "folder-color.pathColors": []
+	"playwright.reuseBrowser": true,
+	"mule.homeDirectory": "C:\\Users\\taiwo\\AnypointCodeBuilder",
+	"mule.controlPlane": "US Cloud",
+	"workbench.editorAssociations": {
+		"**/src/main/mule/**/*.xml": "mulesoft.projectFile.canvas",
+		"{git,gitlens}:/**/src/main/mule/**/*.xml": "default",
+		"**/src/test/munit/**/*.xml": "mulesoft.projectFile.munitCanvas",
+		"{git,gitlens}:/**/src/test/munit/**/*.xml": "default"
+	},
+	"remote.restoreForwardedPorts": false,
+	"remote.portsAttributes": {
+		"6666": {
+			"onAutoForward": "ignore",
+			"host": "127.0.0.1"
+		}
+	},
+	"git.openRepositoryInParentFolders": "always",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	"editor.formatOnType": true,
+	"notebook.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"editor.formatOnSaveMode": "modifications",
+	"chat.mcp.gallery.enabled": true,
+	"cucumber.features": ["src/test/features/*.feature"],
+	"cucumber.glue": ["src,test/steps/*.ts"],
+	"chat.viewSessions.orientation": "stacked",
+	"[typescript]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"workbench.colorTheme": "Default High Contrast",
+	"files.associations": {
+		"**/src/main/resources/deploy.json": "json",
+		"**/src/main/resources/deploy_ch2.json": "json",
+		".env*": "dotenv"
+	},
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "keyword.other.dotenv",
+				"settings": {
+					"foreground": "#FF000000"
+				}
+			}
+		]
+	},
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"javascript": true
+	},
+	"playwright.showTrace": false,
+	"git.autofetch": true,
+	"gitlens.ai.model": "vscode",
+	"gitlens.ai.vscode.model": "copilotcli:",
+	"git.blame.editorDecoration.enabled": true,
+	"claudeCode.preferredLocation": "panel",
+	"playwright.runGlobalSetupOnEachRun": true,
+	"editor.formatOnPaste": true,
+	"prettier.singleQuote": true,
+	"folder-color.pathColors": []
 }
