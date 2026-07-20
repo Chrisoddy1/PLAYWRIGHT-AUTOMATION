@@ -40,3 +40,6 @@ what you are not changing you are choosing
 VSCODE EXTENSION
 vscode-icon 
 Material-icon
+
+Keyboard key to format code
+Shift+Alt+F

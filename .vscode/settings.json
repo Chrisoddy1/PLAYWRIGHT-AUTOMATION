@@ -16,10 +16,8 @@
 		}
 	},
 	"git.openRepositoryInParentFolders": "always",
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	
+	
 	"editor.formatOnSave": true,
 	"prettier.useTabs": true,
 	"editor.formatOnType": true,
@@ -29,9 +27,9 @@
 	"cucumber.features": ["src/test/features/*.feature"],
 	"cucumber.glue": ["src,test/steps/*.ts"],
 	"chat.viewSessions.orientation": "stacked",
-	"[typescript]": {
-		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-	},
+	 
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	,
 	"workbench.colorTheme": "Default High Contrast",
 	"files.associations": {
 		"**/src/main/resources/deploy.json": "json",
