@@ -43,3 +43,9 @@ Material-icon
 
 Keyboard key to format code
 Shift+Alt+F
+
+
+//// GitLab CI
+Docker
+PostgreSQL
+LoadRunner migration
