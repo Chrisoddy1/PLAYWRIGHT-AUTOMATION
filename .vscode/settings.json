@@ -16,8 +16,7 @@
 		}
 	},
 	"git.openRepositoryInParentFolders": "always",
-	
-	
+
 	"editor.formatOnSave": true,
 	"prettier.useTabs": true,
 	"editor.formatOnType": true,
@@ -27,9 +26,8 @@
 	"cucumber.features": ["src/test/features/*.feature"],
 	"cucumber.glue": ["src,test/steps/*.ts"],
 	"chat.viewSessions.orientation": "stacked",
-	 
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"workbench.colorTheme": "Default High Contrast",
 	"files.associations": {
 		"**/src/main/resources/deploy.json": "json",
@@ -62,5 +60,23 @@
 	"playwright.runGlobalSetupOnEachRun": true,
 	"editor.formatOnPaste": true,
 	"prettier.singleQuote": true,
-	"folder-color.pathColors": []
+	"folder-color.pathColors": [],
+
+	"mcpServers": {
+		"playwright": {
+			"command": "npx",
+			"args": ["@playwright/mcp@latest"]
+		}
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/node_modules": true,
+		"**/test-results": false,
+		"**/playwright-report": false,
+		".mule": true
+	}
 }
